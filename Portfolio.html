@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/6.4.2/css/all.min.css">
+</head>
+<body>
+ <div id="header">
+ <div class="container">
+ <nav>
+ <ul>
+ <li><a href="#" >Home</a></li>
+ <li><a href="#" >About</a></li>
+ <li><a href="#">Protfolio</a></li>
+ <li><a href="#" >Contact</a></li>
+ </ul>
+
+ </nav>
+ </div>
+ <div class="header-text">
+ <p> 3rd Year BTech Student</p><br>
+ <h1> Hi, I'm <span>Shrirang Vaidya From Nagpur </h1>
+ </div>
+ <br>
+ <div id="about">
+ <div class="about-container">
+ <div class="row">
+ <div class="about-col-1">
+ <img src="images/about-img.jpg" class="about-img">
+ </div>
+ <div class="about-col-2">
+ <h1 class="sub-title">About Me</h1>
+ <br>
+ <P> Hello, I'm Shrirang Vaidya, a dedicated 3rd Year BTech
+ student in Computer Science and Engineering.with a
+ passion for web development.I'm on a journey to merge
+ technology and creativity to build meaningful online
+ experience.With a deep love for coding and a keen eye
+ for design, I strive to turn ideas into functional,
+ user-friendly websites.
+ </P>
+ <div class="tab-titles">
+ <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+ <p class="tab-links" onclick="opentab('education')">Education</p>
+ </div>
+ <div class="tab-container active-tab" id="skill">
+ <ul>
+ <li><span>Fontend Development</span><br>HTML,CSS and Javascript</li>
+ <li><span>Backend Development</span><br>Nodejs ,REST API'S,</li>
+ <li><span>Database</span><br>Basics of MONGODB and SQL</li>
+ <li><span>Salesforce</span><br>Salesforce(Admin level)</li>
+ <li><span>C Language</span></li>
+ </ul>
+ </div>
+ <div class="tab-container" id="education">
+ <ul>
+ <li><span>10th</span><br> Anglo hindi high school (2019)</li>
+ <li><span>12th</span><br> Amolakchand maha vidlaya (2021)</li>
+ <li><span>UG</span><br>K.D.K College Of Engineering</li>
+ <p>Pursuing in 3rd Year in Computer Science and Engineering</p>
+
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <!--Portfolio page-->
+ <div id="portfolio">
+ <div class="container">
+ <h1 class="port-title">My work</h1>
+ </div>
+ <div class="work-list">
+ <div class="work">
+ <img src="images/work1.png">
+ <div class="layer">
+ <h3>Calculator</h3><br>
+ <p>I made calculator using HTML ,CSS and Javascript</p>
+ <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ </div>
+ </div>
+ <div class="work">
+ <img src="images/work2.png">
+ <div class="layer">
+ <h3>Facebook Login Interface</h3><br>
+ <p>I made clone of Flipkart login interface using HTML,CSS<br> and Javascript</p>
+ <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ </div>
+ </div>
+ <div class="work">
+ <img src="images/work3.png">
+ <div class="layer">
+ <h3>Flipkart webpage</h3><br>
+ <p>I made responsive Flipkart webpage using HTML,CSS and<br> Javascript</p>
+ <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ </div>
+ </div>
+ </div>
+ <a href="#" class="btn">See More</a>
+ </div>
+ <!--Contact page-->
+ <div class="contact">
+ <div class="container">
+ <div class="row">
+ <div class="contact-left">
+ <h1 class="sub-title-contact">Contact Information</h1><br><br>
+ <p><i class="fa-solid fa-envelope" style="color: #fafafa;"></i>&nbsp;:
+Shrirangvaidya4@gmail.com</p><br>
+ <p><i class="fa-solid fa-phone" style="color: #1e5ecc;"></i> &nbsp;: 0987754329</p><br>
+ <div class="social-icons">
+ <a href="www.linkedin.com/in/"><i class="fa-brands fa-linkedin" style="color:
+#566fb8;"></i></a>
+ <a href="#"><i class="fa-brands fa-github" style="color: #240cdf;"></i></a>
+ <a href="#"><i class="fa-brands fa-facebook" style="color: #1860dc;"></i></a>
+ <a href="#"><i class="fa-brands fa-square-instagram" style="color: #ec096b;"></i></a>
+ </div>
+ <a href="images/SakshiSirsat.pdf" download class="btn btn2">Download CV</a>
+ </div>
+ <div class="contact-right">
+ <form>
+ <input type="text" name="Name" placeholder="Write your Name" required>
+ <input type="text" name="Email" placeholder="Write your Email" required>
+ <textarea name="Message" rows="6" placeholder="Write your Message"></textarea>
+ <button type="submit" class="btn btn2">Submit</button>
+ </form>
+ </div>
+ </div>
+ </div>
+ </div>
+<script src="app.js"></script>
+</body>
+</html>
